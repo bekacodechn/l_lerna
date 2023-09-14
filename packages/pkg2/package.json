@@ -1,0 +1,24 @@
+{
+  "name": "pkg2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "bekacodechn <bekacodechn@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/pkg2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "ora": "^7.0.1",
+    "pkg1": "^0.0.0"
+  }
+}
